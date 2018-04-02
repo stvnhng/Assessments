@@ -1,0 +1,87 @@
+.navbar-nav {
+  background-color: #FBFCFC;
+  text-align: center;
+    /* padding: 20px; */
+}
+
+.container {
+  font-color: black
+  font-size: 150px;
+  font-family: georgia;
+}
+
+#jumbo {
+    background: rgba(251, 252, 252, 0.6);
+}
+
+body {
+  background-image: url("https://lh3.googleusercontent.com/3vJOhiiD0lnmRmqqdTQf8XngN-LBX8lobKT2uyVviFWScLJYO5YGe6tjWMdDn_tVI3YdOE_axpU7intLFqGsHlPjvy560RBQUQKM35po3O_C1cAgeGrSSsMx-wfPbFpM4wrTK5SIELMD_lbL9XzPpcUqJvpv_cBieQNhB1wbe7wWSNoeaAm9xYrv9xLGAf1bfTKNyQGGi3mP0z-OceL8EyAiXGjl4Ar_njz6AZ9U6ChD8EdalEJgcnK8z0C23OgKTl-yPOAWuEUkQvVQ8AsqxqqJ3J2gqyxRn8fHkoY9Xt_vurNWvjNGgOHaxP80rxeUKwwbqIje8yX1T8Vj5IKLOnR7B4pS7aQ9BrqpLD_-TrBo23qcfX8UzsQr36DdY0hGPuxlCDOIvjk5CyfspNzNr-KfOGI9dYKu54F9CAVvQitymECLfM_kW2kHSh9nPWz8Af8fUxfWABJZqqBLUkQJh9G_XVZvr8M-dYjjmKx2pUUlE92DVzXZVyL0JBNxw_7SugMkfg15wlohJ2yvglbe3v6JMF6dmPGDXlk5GuP79ra_MYdYXbGxRLiuc68Svg2W5YWZdyv6XtxrFCWedAy8bR4PKozvbpg2ps4hc6wU=w1656-h1242-no");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-color: #FBFCFC;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 80px;
+  font-family: georgia;
+  background-color: ;
+}
+
+p {
+  color: black;
+  /* padding: 80px; */
+  text-align: left;
+  font-size: 18px;
+  font-family: georgia;
+  opacity: 0.6;
+}
+
+div.page-header {
+  margin: 100px;
+  background-color: #FBFCFC;
+  border: 0px solid black;
+  opacity: 0.7;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-size: 60px;
+  font-family: georgia;
+}
+
+#introduction {
+  color: black;
+  padding: 60px;
+  text-align: left;
+  font-size: 18px;
+  font-family: georgia;
+}
+
+#whycode {
+  color: black;
+  padding: 60px;
+  text-align: left;
+  font-size: 18px;
+  font-family: georgia;
+}
+
+#professional {
+  color: black;
+  padding: 60px;
+  text-align: left;
+  font-size: 18px;
+  font-family: georgia;
+}
+
+#interests {
+  color: black;
+  padding: 60px;
+  text-align: left;
+  font-size: 18px;
+  font-family: georgia;
+}
