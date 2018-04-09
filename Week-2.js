@@ -11,7 +11,11 @@ var typeNumber = function(argument) {
 typeNumber(3)
 
 // 2. Write about yourself using an object. Include at least three properties of you and store your object in a variable with your name.
-
+const steven = {
+  a: 1,
+  b: 2,
+  c: 3
+};
 
 // 3. Given the object below, fill in how to find specific information:
 
@@ -26,13 +30,13 @@ var bicycle = {
 }
 
 // Log the type of bicycle:
-console.log()
+console.log(bicycle.type)
 
 // Log just the bell from the list of gear
-console.log()
+console.log(bicycle.gear[2])
 
 // Log the correct PSI for the tires
-console.log()
+console.log(bicycle.wheels.specs[2])
 
 // 4. Have the function AlphabetSoup(str) take the "str" parameter being passed and return a string with the letters in alphabetical order (ie. hello becomes ehllo). Assume no numbers or punctuation symbols will not be included in the parameter.
 
