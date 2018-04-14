@@ -2,9 +2,9 @@
 
 var typeNumber = function(argument) {
 	if (argument % 3 === 0) {
-		 console.log(argument + "is divisible by three")
+		 console.log(argument + " is divisible by three")
 	 } else {
-		 console.log(argument + "is not divisible by three")
+		 console.log(argument + " is not divisible by three")
 	 }
 }
 
@@ -12,9 +12,9 @@ typeNumber(3)
 
 // 2. Write about yourself using an object. Include at least three properties of you and store your object in a variable with your name.
 const steven = {
-  a: 1,
-  b: 2,
-  c: 3
+  1: "new to coding",
+  2: "from the East Coast",
+  3: "now lives in San Diego"
 };
 
 // 3. Given the object below, fill in how to find specific information:
@@ -47,12 +47,20 @@ function AlphabetSoup(str) {
 
     // your code goes here
 
-	return str;
+function AlphabetSoup(str) {
+	return str.split('').sort().join('');
 }
+console.log(AlphabetSoup("hooplah"))
+VM201:1 ahhloop
+undefined
 
 // keep this function call here
 
 AlphabetSoup(readline());
+
+console.log(AlphabetSoup("readline"));
+VM199:1 adeeilnr
+undefined
 
 // 5. Given the arrays below, use a for loop to print one value from each array concatenated together. How would your code need to change to accomodate arrays of different lengths?
 
@@ -61,3 +69,7 @@ var nums = [1, 5, 88, 2, 5, 42, 57, 101]
 var nouns = ["ducks", "telephone booth", "the enterprise", "robots", "amazon", "eraser", "zafod", "a"]
 
 // output of the first function should be: "1 ducks"
+
+for (i = 0; i < nums.length; i++) {
+console.log(nums[i] + " " + nouns[i]);
+}
