@@ -58,9 +58,12 @@ undefined
 
 AlphabetSoup(readline());
 
+
 console.log(AlphabetSoup("readline"));
 VM199:1 adeeilnr
 undefined
+=======
+AlphabetSoup(hooplah);   
 
 // 5. Given the arrays below, use a for loop to print one value from each array concatenated together. How would your code need to change to accomodate arrays of different lengths?
 
