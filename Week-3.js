@@ -25,11 +25,33 @@ stuffArray.map(function(el, i){
 
 // your for loop here, you can reference the same stuffArray variable
 
-
-3. Basic sorting: Find the cheapest price -- you are given a list of prices and need to find the signle lowest price from the array. Write a function that takes in an array of numbers, and returns the lowest price
-
-var steal = function(){
-
-  // your logic here
-
+for (var i = 0; i < stuffArray.length; i++) {
+  console.log(stuffArray[i] + " is at index: " + i);
 }
+
+
+
+3. Basic sorting: Find the cheapest price -- you are given a list of prices and need to find the single lowest price from the array. Write a function that takes in an array of numbers, and returns the lowest price
+
+var priceList = [10, 7.50, 2.99, 5, 9.99, 12.99]
+
+var steal = function(priceList) {
+	priceList.sort(function(a, b) {return a-b})
+	console.log(x);
+}
+
+// var priceList = [{product: "Oatmeal", price: "5"},
+//   						   {product: "Flank Steak", price: "8.99"},
+//       					 {product: "New York Strip Steak", price: "14.99"},
+//       					 {product: "Tobasco", price: "2"},
+//       					 {product: "Maple Syrup", price: "7.50"},
+//       					 {product: "Cereal", price: "3"}]
+//
+//   // your logic here
+// steal(priceList)
+// //
+// // for(var i = 0; i < priceList.length; i++)
+// //
+// var cheapList = priceList.map(x => x.product + " " + x.price) {
+// 	x.sort(function(a, b) {return b-a})}
+// // console.log(cheapList);

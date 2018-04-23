@@ -28,7 +28,7 @@ logIt();
 first Guess:
 outside
 
-Then, past the code in your console and explain why you were right/wrong.
+Then, pass the code in your console and explain why you were right/wrong.
 The answer was undefined because nothing was called when console logged. If you call "text" then you would get outside because global vs local scope.
 
 #### 3. What is JSON? How does it relate to javascript objects?
