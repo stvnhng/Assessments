@@ -3,16 +3,38 @@
 import React, { Component } from 'react';
 
 class App extends Component {
+	constructor(props){
+		super(props)
+		this.state = {
+			stuffArray: [42, "Arthur Dent", 1978, "Zaphod", "Vogon", "Marvin, the Paranoid Android"]
+		}
+	}
+
 	render() {
+		var content = "this is a content"
+
+		var arrayStuff = this.state.stuffArray.map(function(el, i){
+			return (
+				<div>el + " is at index: " + i</div>
+			)
+		}
 		return (
 			<div>
 				<h1>I am a component</h1>
+				<p>(content)</p>
+				{arrayStuff}
 			</div>
 		)
 	}
 }
 
 export default App;
+
+A react component needs to:
+1. import react
+2. must be a class
+3. must export the class
+4. must have a render function that returns one JSX element
 
 2. Practice With Loops: In React, we often use the map function to iterate over an array held in state. To get more practice with this, write a vanilla javascript for loop that outputs the same thing as the map function below.
 
@@ -25,7 +47,7 @@ stuffArray.map(function(el, i){
 
 // your for loop here, you can reference the same stuffArray variable
 
-for (var i = 0; i < stuffArray.length; i++) {
+for (let i = 0; i < stuffArray.length; i++) {
   console.log(stuffArray[i] + " is at index: " + i);
 }
 

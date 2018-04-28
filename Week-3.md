@@ -4,7 +4,7 @@ Try your best to answer each question on your own before looking up the answer o
 
 #### 1. Here is a list of pros and cons to using the React library to build your application -- but some of them are false. Remove the false statements from the list:
 
-- React was created to be simple, so that even people with minimal code experience could use it and create Single Page Applications (SPAs)
+- (Angular) React was created to be simple, so that even people with minimal code experience could use it and create Single Page Applications (SPAs)
 - React is a modern, efficient answer to complex UI applications
 - React is a full stack (front end) framework for modern web applications
 - React is a flexible library that plays the role of V in an MVC framework
